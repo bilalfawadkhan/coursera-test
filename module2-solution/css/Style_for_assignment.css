@@ -1,3 +1,72 @@
 @charset "utf-8";
-/* CSS Document */
+
+*{
+	box-sizing: border-box;}
+p {
+	width : 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica;
+	color:white;
+	margin-top: 5px;
+}
+h1 {text-align: center;}
+
+section > h1 {
+	color : white;
+	border: 1px solid black; 
+	width:auto;
+	margin-left:50%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	left:132px;
+	text-align:center;
+	background-color: rgba(165,42,42,1.00)
+}
+#h1 {background-color: rgba(199,98,145,1.00)}
+#h2{background-color: rgba(165,42,42,1.00)}
+#h3{background-color: rgba(225,222,126,1.00)}
+
+
+.row {width:100%;
+background-color: aqua;}
+
+/************ For Large Screen Devices *********/
+@media (min-width:992px){
+	.col-lg-4{
+				float:left;
+				border: solid 10px white;
+				width:33.33%;
+				background-color:rgba(106,101,101,1.00);
+	}	
+	}
+/********* For Tablet Screen Devices *******/
+	@media (min-width:768px) and (max-width:991px){
+		.col-md-6{
+			float: left;
+			border:solid 10px white;
+			width :50%;
+			background-color:rgba(106,101,101,1.00);
+			
+		}
+		.col-md-12{
+			float: left;
+			border:solid 10px white;
+			width :100%;
+			background-color:rgba(106,101,101,1.00);}
+	}
+	/********** For Mobile Screen Devices *********/
+	@media (max-width:767px){
+		.col-sd-12{
+			float: left;
+			border:solid 5px white;
+			width:100%;
+			background-color:rgba(106,101,101,1.00);
+		}
+	}
+	
+	
+	
+
+	
 
