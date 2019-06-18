@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head-nav{
+	background-color:#52AE4C;
+}
+
+#top-nav{
+	background: #52AE4C;
+}
+
+h1{
+	text-align: center
+}
+.jumbotron{
+	margin: 0px;
+	padding: 0px;
+	background-color: dimgrey;
+	width: 100%
+}
+
+.shead{
+	text-align: center
+}
+
+#nav-list{
+	text-align: center;
+	padding: 0px;
+}
+
+#nav-list li a{
+	padding: 0px;
+	
+}
